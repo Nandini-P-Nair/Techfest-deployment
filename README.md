@@ -38,3 +38,5 @@ and remove `validate`, `mongoSanitize()`. Send `{"email":{"$gt":""},"password":{
 XSS: in pages/Feedback.jsx use `<p dangerouslySetInnerHTML={{ __html: f.message }} />` and post `<img src=x onerror=alert('hi')>`.
 (Browsers do not run `<script>` inserted via innerHTML, so the img/onerror payload is the reliable demo.)
 After the fix, both attacks fail. Take screenshots of each.
+
+<!-- Feature page update -->

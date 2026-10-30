@@ -6,7 +6,7 @@ const shots = [
 export default function Gallery() {
   return (
     <section>
-      <h2>TechFest Feature Gallery</h2>
+ feature-gallery
       <div className="grid photos">
         {shots.map((alt, i) => (
           <figure key={alt}>
